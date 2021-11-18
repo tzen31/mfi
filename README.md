@@ -1,7 +1,7 @@
 # mfi
 
-Créer la table "peaks" et le jeu de données à l'aide du fichier "peaks.sql" dans une nouvelle base de données.
+Create "peaks" table with datas with "peaks.sql" file in a new database.
 
-Copier l'ensemble des fichiers dans un répertoire "mfi" à la racine de /www
+Copy all files in a "mfi" directory in root path /www
 
-L'api se lance via l'adresse "http://localhost/mfi/"
+The api is lauching wuth address "http://localhost/mfi/"
