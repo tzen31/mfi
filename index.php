@@ -14,7 +14,7 @@
     <?php
         $result = $mysqli->query("SELECT * from peaks");
         echo "<table name='Table_peaks' border=1>";      
-        echo "<th>nom</th>";         
+        echo "<th>Pick name</th>";         
         while($obj = $result->fetch_object())
         {
             $name=$obj->name;            
@@ -31,7 +31,7 @@
             <tr><td>Peak name :</td><td><input type='search' name="search"></td></tr>        
             <tr><td>Latitude Min : </td><td><input type='search' name="latMinSearch" size=5></td><td>Latitude Max : </td><td><input type='search' name="latMaxSearch" size=5></td></tr>
             <tr><td>Longitude Min : </td><td><input type='search' name="lonMinSearch" size=5></td><td>Longitude Max : </td><td><input type='search' name="lonMaxSearch" size=5></td></tr>
-            <tr><td colspan=2><input type='submit' value='Rechercher'></td></tr>
+            <tr><td colspan=2><input type='submit' value='Search'></td></tr>
         </table>
     </form>
 
